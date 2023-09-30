@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main-title">Contact<span class="span">List</span>
+    <p class="parrafo-1">Guarda tus contactos de manera sencilla...</p>
+    </div>
+  <form id="form">
+    <div class="input-container">
+      <label for="name-input">Nombre: </label>
+      <input type="text" id="name-input">
+      <p class="helper-form">
+        La primera letra tiene que ser mayuscula y tener un solo nombre.
+      </p>
+      <br>
+    <!-- <input type="text" id="var1" readonly> -->
+    </div>
+    <div class="input-container">
+      <label for="phone-input">Numero: </label>
+      <input type="text" id="phone-input">
+      <p class="helper-form">
+        Tiene que ser un numero venezolano valido.
+      </p>
+    </div>
+    <button id="form-btn" disabled type="submit">Crear</button>
+  </form>
+  <ul id="list">
+  </ul>
+  <script src="eventos.js"></script>
+</body>
+</html>
